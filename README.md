@@ -9,16 +9,16 @@ Hugo + PaperMod 기반 학습 노트 블로그. https://charminggroot.github.io
 
 ```bash
 # 1. 볼트에서 글 작성/수정 (~/Documents/정리/보안/*.md 등)
+#    아직 미완성이면 frontmatter에 draft: true → 발행에서 제외됨
 
-# 2. 블로그로 동기화
-python3 scripts/sync.py
+# 2. 로컬 미리보기 (선택)
+python3 scripts/sync.py && hugo server
 
-# 3. 로컬 미리보기 (선택)
-hugo server
-
-# 4. 배포
-git add -A && git commit -m "post: ..." && git push
+# 3. 발행 — sync + commit + push 한 번에 (GitHub Actions가 배포)
+scripts/publish.sh "post: 제목"
 ```
+
+Claude Code에서는 "블로그 올려줘"라고 하면 `publish-blog` 스킬이 위 발행을 실행한다.
 
 ## 공개 범위 늘리기
 
