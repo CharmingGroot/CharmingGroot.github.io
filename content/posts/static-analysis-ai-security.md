@@ -5,6 +5,7 @@ date: 2026-06-16
 tags: [security, owasp, prompt-injection, ssrf, supply-chain, static-analysis, yara, ast, taint, llm-security, ai-agents]
 summary: "SkillSpector 같은 보안 스캐너에 기여하거나 코드를 읽을 때 필요한 개념들. 웹 취약점 기초, OWASP LLM Top 10, 정적 분석(regex·AST·YARA·taint tracking)을 개발자 시각에서 정리한다."
 slug: "static-analysis-ai-security"
+categories: ["보안"]
 ---
 
 보안 문서를 읽다 보면 모르는 단어가 줄줄이 나온다. 그걸 하나씩 검색하며 읽으면 흐름이 끊긴다. 여기서는 SkillSpector 코드나 OWASP 문서를 읽을 때 자주 만나는 개념들을 미리 정리한다. 손으로 해본 지식이 아니라 독해를 위한 개념 지도다.

@@ -5,6 +5,7 @@ date: 2026-06-15
 tags: [sigma, pysigma, backend, pipeline, detection-engineering, siem, threat-hunting]
 summary: "pySigma 내부 구조(Backend/Pipeline/Transformation), 커스텀 백엔드 작성, 룰 품질 기준, 위협 헌팅과 기본 탐지의 차이, MITRE ATT&CK 커버리지 매핑 실전."
 slug: "sigma-advanced"
+categories: ["보안"]
 ---
 
 ## pySigma 내부 구조

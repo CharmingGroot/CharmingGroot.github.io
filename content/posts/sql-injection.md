@@ -6,6 +6,7 @@ tags: [security, sql-injection, sqli, union, blind, error-based, waf-bypass, aut
 summary: "PayloadsAllTheThings SQL Injection 챕터 전문 번역."
 source: "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md"
 slug: "sql-injection"
+categories: ["보안"]
 ---
 
 SQL Injection(SQLi)은 공격자가 애플리케이션이 데이터베이스에 보내는 쿼리를 조작할 수 있게 해주는 보안 취약점이다. 웹 애플리케이션 취약점 중 가장 흔하고 심각한 유형 중 하나로, 공격자가 DB에서 임의의 SQL 코드를 실행할 수 있게 한다. 이는 데이터 무단 접근, 데이터 변조, 심한 경우 DB 서버 전체 장악으로 이어질 수 있다.

@@ -5,6 +5,7 @@ date: 2026-06-15
 tags: [falco, cncf, ebpf, syscall, runtime-security, kubernetes, rules]
 summary: "Falco의 내부 아키텍처(커널 드라이버 → 파서 → 룰 엔진 → 출력), 3가지 드라이버(kmod/legacy BPF/modern BPF), 룰 문법 전체(rule/macro/list/exception), 주요 필드 레퍼런스."
 slug: "falco-basics"
+categories: ["보안"]
 ---
 
 ## Falco란

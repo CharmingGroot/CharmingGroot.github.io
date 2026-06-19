@@ -5,6 +5,7 @@ date: 2026-06-15
 tags: [security, runtime, ebpf, siem, soar, waf, ids, mitre-attack]
 summary: "Falco·Sigma·Coraza를 이해하기 위한 런타임 보안 생태계 전체 그림. WAF/IDS/SIEM/SOAR의 역할 구분, 탐지-차단-대응 3계층, MITRE ATT&CK 기초."
 slug: "runtime-security-ecosystem"
+categories: ["보안"]
 ---
 
 ## 왜 "런타임" 보안인가

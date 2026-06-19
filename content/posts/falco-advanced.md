@@ -5,6 +5,7 @@ date: 2026-06-15
 tags: [falco, kubernetes, ebpf, falcosidekick, plugins, k8s-audit, soar, rules-tuning]
 summary: "Falco K8s Audit 통합, falcosidekick 출력 팬아웃, 플러그인 시스템, 룰 튜닝 전략, 성능 최적화, SOAR 연동 패턴."
 slug: "falco-advanced"
+categories: ["보안"]
 ---
 
 ## Falco와 쿠버네티스

@@ -5,6 +5,7 @@ date: 2026-06-15
 tags: [sigma, siem, detection-engineering, logsource, mitre-attack, yaml]
 summary: "Sigma 룰의 모든 필드를 하나씩 분해. logsource의 3축(product/category/service), detection의 selection+modifier+condition, 상관관계(correlation) 기초."
 slug: "sigma-basics"
+categories: ["보안"]
 ---
 
 ## Sigma란
