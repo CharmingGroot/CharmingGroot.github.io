@@ -85,6 +85,9 @@ def main() -> int:
                 print(f"  건너뜀(frontmatter 없음): {src.name}", file=sys.stderr)
                 continue
             fm, body = sp
+            if re.search(r"^draft:\s*true\b", fm, re.MULTILINE):
+                print(f"  건너뜀(draft): {src.name}", file=sys.stderr)
+                continue
             slug = derive_slug(src.stem, prefix)
             new_fm = inject_slug(fm, slug)
             out = f"---\n{GENERATED_MARK}\n{new_fm}\n---\n\n{body}"
