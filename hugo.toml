@@ -23,7 +23,7 @@ hasCJKLanguage = true
 
 [params]
   env = "production"
-  description = "보안·쿠버네티스·AI 에이전트를 공부하며 정리하는 노트"
+  description = "보안·쿠버네티스·AI 에이전트 작업 기록"
   author = "CharmingGroot"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -39,7 +39,7 @@ hasCJKLanguage = true
 
   [params.homeInfoParams]
     Title = "CharmingGroot 🌱"
-    Content = "보안·쿠버네티스·AI 에이전트를 공부하며 정리하는 학습 노트. Falco·Sigma 같은 런타임 보안부터 깊게 파봅니다."
+    Content = "실무에서 쓰는 스킬과 깊게 파본 것들을 남기는 기록. 보안·쿠버네티스·AI 에이전트가 중심."
 
   [[params.socialIcons]]
     name = "github"
