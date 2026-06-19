@@ -1,0 +1,94 @@
+baseURL = "https://charminggroot.github.io/"
+languageCode = "ko-kr"
+defaultContentLanguage = "ko"
+title = "CharmingGroot"
+theme = "PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "보안·쿠버네티스·AI 에이전트를 공부하며 정리하는 노트"
+  author = "CharmingGroot"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  disableScrollToTop = false
+
+  [params.homeInfoParams]
+    Title = "CharmingGroot 🌱"
+    Content = "보안·쿠버네티스·AI 에이전트를 공부하며 정리하는 학습 노트. Falco·Sigma 같은 런타임 보안부터 깊게 파봅니다."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/CharmingGroot"
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "태그"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "아카이브"
+    url = "/archives/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "검색"
+    url = "/search/"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
