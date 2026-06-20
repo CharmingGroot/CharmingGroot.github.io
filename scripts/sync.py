@@ -24,6 +24,7 @@ POSTS = Path(__file__).resolve().parent.parent / "content" / "posts"
 SOURCES = [
     ("보안/*.md", "보안"),
     ("[0-9]*.md", "by_range"),
+    ("arch/*.md", "시스템 아키텍처"),
 ]
 
 # 발행에서 제외할 파일 (stem 기준)
